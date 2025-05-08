@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eko Vibe Canvas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Eko Vibe Canvas</h1>
+        <div class="gallery" id="gallery">
+        </div>
+        <div class="canvas-container">
+            <canvas id="mainCanvas"></canvas>
+        </div>
+        <div class="controls controls-row">
+            <input type="text" id="customText" placeholder="Metin ekle...">
+            <button id="addText">Metin Ekle</button>
+            <label for="imageUpload" class="upload-btn">Resim Yükle</label>
+            <input type="file" id="imageUpload" accept="image/*" hidden>
+            <button id="downloadBtn" class="download-btn">İndir</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
